@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://ddlxfi1lwlab4"]
+
+[ext_resource type="TileSet" uid="uid://bn6coryfklx1b" path="res://tileset_dirt&grass.tres" id="1_h2617"]
+[ext_resource type="Script" path="res://world.gd" id="2_slf2s"]
+
+[node name="World" type="TileMapLayer"]
+texture_filter = 1
+tile_set = ExtResource("1_h2617")
+script = ExtResource("2_slf2s")
